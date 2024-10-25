@@ -6,9 +6,9 @@ import { ParentComponent } from './components/parent/parent.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,ChildComponent,ParentComponent],
+  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
   title = 'angular-basic-project';
